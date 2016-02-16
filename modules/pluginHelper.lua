@@ -16,6 +16,10 @@ local pluginHelper = {}
 
 local fs = require ('fs')
 
+local function test()
+  return "test"
+end
+
 
 --pluginHelper.is64BitWinOSVersion = is64BitWinOSVersion
 --pluginHelper.isSupportedWinOSVersion = isSupportedWinOSVersion
@@ -30,7 +34,7 @@ local fs = require ('fs')
 --pluginHelper.createBackupHttpdConfFile = createBackupHttpdConfFile
 --pluginHelper.winApacheRestart = winApacheRestart
 --pluginHelper.linuxApacheRestart = linuxApacheRestart
-
+pluginHelper.test = test
 
 
 return pluginHelper
