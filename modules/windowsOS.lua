@@ -7,7 +7,7 @@
 --
 
 local windowsOS = {}
-local _helper = require("pluginHelper")
+local _helper = require('pluginHelper')
 
 local apacheProperties = {}
 local apache_exe_path = nil
