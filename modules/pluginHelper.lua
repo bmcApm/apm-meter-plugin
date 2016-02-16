@@ -14,24 +14,13 @@ local pluginHelper = {}
 -- Download functions
 ---------------------------------------------------------------------------------------------------------
 
-local lfs = require ("lfs")
+local lfs = require ('lfs')
 
-local function downloadFile(fileLocation, fileDestination, fileName)
-    lfs.mkdir(fileDestination)
-    local http = require("socket.http")
-    local body, code = http.request(fileLocation .. fileName)
-    if not body then error(code) end
-
-    -- save the content to a file
-    local f = assert(io.open(fileDestination .. fileName, 'wb')) -- open in "binary" mode
-    f:write(body)
-    f:close()
-end
 
 --pluginHelper.is64BitWinOSVersion = is64BitWinOSVersion
 --pluginHelper.isSupportedWinOSVersion = isSupportedWinOSVersion
 --pluginHelper.getOsName = getOsName
-pluginHelper.downloadFile = downloadFile
+-- pluginHelper.downloadFile = downloadFile
 --pluginHelper.Extract = Extract
 --pluginHelper.get_win_binary_path = get_win_binary_path
 --pluginHelper.get_win_apache_properties = get_win_apache_properties
