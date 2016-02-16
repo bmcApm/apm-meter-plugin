@@ -14,7 +14,7 @@ local pluginHelper = {}
 -- Download functions
 ---------------------------------------------------------------------------------------------------------
 
---local lfs = require ('lfs')
+local fs = require ('fs')
 
 
 --pluginHelper.is64BitWinOSVersion = is64BitWinOSVersion
