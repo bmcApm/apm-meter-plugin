@@ -1,3 +1,4 @@
-local aa = "aaa"
-print(aa)
+if 2 > 1 then
+  print("GOOD")
+end
 
