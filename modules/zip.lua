@@ -1,5 +1,5 @@
 local ffi = require('ffi')
-local Zlib = require("zlib_native")
+local Zlib = require('zlib_native')
 
 ffi.cdef[[
   struct zip_LFH {
