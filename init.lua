@@ -7,7 +7,7 @@
 --
 
 local _helper = require('pluginHelper')
-local _windowsOS = require('windowsOS')
+--local _windowsOS = require('windowsOS')
 local _macOS = require('macOS')
 local _linuxOS = require('linuxOS')
 
