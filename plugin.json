@@ -7,8 +7,8 @@
   "tags": "tugboat",
   "description": "Tugboat Plugin",
   "icon": "tugboat.png",
-  "command": "boundary-meter init.lua",
-  "command_lua": "boundary-meter init.lua",
+  "command": "boundary-meter main.lua",
+  "command_lua": "boundary-meter main.lua",
   "metrics": [
     "END_USER_LATENCY"
   ],
